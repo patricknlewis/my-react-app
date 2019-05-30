@@ -11,7 +11,7 @@
     grid-template-columns: repeat(5, auto);
     justify-items: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1140px;
 }
 
 .header a {
@@ -44,7 +44,12 @@
     transform: translateY(-2px);
 }
 
-@media (max-width: 640px){
+.logo {
+    height: 48px;
+    padding-right: 128px;
+}
+
+@media (max-width: 720px){
     .header {
         padding: 16px 0; 
     }
@@ -53,5 +58,8 @@
     }
     .header a:nth-child(4) {
         display: none;
+    }
+    .logo {
+        padding-right: 8px;
     }
 }
