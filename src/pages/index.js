@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/card';
 
 const IndexPage = () => (
   <div>
@@ -20,6 +21,32 @@ const IndexPage = () => (
             />
           </path>
         </svg>
+      </div>
+    </div>
+    <div className="cards">
+      <h2>Helping the entire care team</h2>
+      <p>In every medical event, there's a "care team" that consists of at least three individuals: a doctor, the patient, and a friend or family member. When caring for the elderly, this team expands to specialists, nurses, and therapists.</p>
+      <div className="cardgroup">
+        <Card 
+          title="React for designers"
+          description="React is a powerful modern Javascript library"
+          text="12 sections" />
+        <Card 
+          title="Design Systems"
+          description="Somehow everybody's already an expert in new practices"
+          text="10 sections" />
+        <Card 
+          title="Git for designers"
+          description="So when things inevitably break, you can CMD+Z"
+          text="12 sections" />
+        <Card 
+          title="SF 101"
+          description="Get fitted for Patagonia vests, Bombas socks, and Allbirds"
+          text="12 sections" />
+        <Card 
+          title="Rest &amp; Vest"
+          description="Get acquired and find a secluded rooftop with a lounge chair"
+          text="12 sections" />
       </div>
     </div>
   </div>

@@ -57,6 +57,29 @@ a {
   position: absolute;
 }
 
+.cards h2 {
+  color: #132844;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 72px 48px 16px 48px;
+  text-align: center;
+}
+
+.cards p {
+  color: #132844;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.cardgroup {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 50px 40px 100px;
+}
+
 @media (max-width: 640px){
   .herogroup {
     padding: 128px 32px;
@@ -66,6 +89,18 @@ a {
   }
   .hero p {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardgroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .cardgroup {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
