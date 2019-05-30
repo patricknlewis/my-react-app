@@ -1,0 +1,45 @@
+.header {
+    padding: 32px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.headergroup {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.header a {
+    color: #132844;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header button {
+    background: #54966E;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    padding: 12px 24px;
+}
+
+@media (max-width: 640px){
+    .header {
+        padding: 16px 0; 
+    }
+    .headergroup {
+        grid-template-columns: repeat(4, auto);
+    }
+    .header a:nth-child(4) {
+        display: none;
+    }
+}

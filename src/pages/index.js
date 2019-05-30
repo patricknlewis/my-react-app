@@ -5,9 +5,9 @@ const IndexPage = () => (
   <div>
     <div className="hero">
       <div className="herogroup">
-        <h1>Ensuring care for the ones you love.</h1>
-        <p>Hello Jed gives a complete picture of a patient's health to the entire care team including doctors, at-home nurses, and family members.</p>
-        <Link to="/page-2/">Learn More</Link>
+        <h1>Get the complete picture of your loved one’s care.</h1>
+        <p>Hello Jed gives a patient's care team - doctors, nurses, and family members - a place to communicate, stay up to date, and work together.</p>
+        <Link to="/page-2/">Text me the link</Link>
       </div>
     </div>
   </div>
